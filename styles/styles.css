@@ -1,0 +1,222 @@
+* body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: "Commissioner", sans-serif; }
+
+.top-bar {
+  background-color: black;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .top-bar a {
+    color: white; }
+  .top-bar a:hover {
+    color: yellowgreen;
+    text-decoration: underline; }
+  .top-bar span {
+    color: white;
+    text-align: center;
+    font-size: 1.5vw; }
+
+.bg-img {
+  background-image: url("https://image.shutterstock.com/image-vector/accounting-big-data-blockchain-technology-600w-1919445398.jpg");
+  min-height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.about-container img {
+  transition: 1s; }
+.about-container img:hover {
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1); }
+
+.service-container {
+  background-color: #040e56; }
+  .service-container li {
+    color: white; }
+  .service-container .cards {
+    background-color: turquoise;
+    width: 80%;
+    margin: 3%;
+    padding: 30px;
+    transition: 1s; }
+  .service-container .cards:hover {
+    background-color: dodgerblue; }
+  .service-container li:hover i {
+    color: dodgerblue; }
+
+.vision-container {
+  margin-bottom: 60px; }
+  .vision-container .box {
+    background-color: dodgerblue;
+    padding: 10px;
+    transition: 1s; }
+  .vision-container .box:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1); }
+  .vision-container h3 {
+    text-align: center;
+    color: white; }
+  .vision-container p {
+    color: gray; }
+  .vision-container span {
+    color: dodgerblue;
+    font-weight: bold; }
+  .vision-container i {
+    padding: 10px;
+    font-size: x-large; }
+  .vision-container img {
+    transition: 1s; }
+  .vision-container img:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1); }
+
+.client-container {
+  background-color: #040e56;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .client-container h4 {
+    color: darkturquoise; }
+  .client-container h2 {
+    color: white;
+    font-weight: bold; }
+  .client-container p {
+    color: gray; }
+  .client-container .card-container {
+    width: 35%;
+    position: relative;
+    bottom: 50px;
+    margin: 10px;
+    background-color: #040e56;
+    padding: 10px; }
+    .client-container .card-container p {
+      color: white; }
+
+.importance-container .box {
+  display: flex;
+  background-color: #040e56;
+  padding: 10px;
+  transition: 1s;
+  align-items: center;
+  flex-direction: column; }
+.importance-container .box:hover {
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1); }
+.importance-container h1 {
+  color: white;
+  font-weight: bold; }
+.importance-container h6 {
+  color: white; }
+.importance-container img {
+  transition: 1s; }
+.importance-container img:hover {
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1); }
+
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #040e56;
+  align-items: center;
+  padding: 2%; }
+  .testimonial-container h3 {
+    color: turquoise; }
+  .testimonial-container h5 {
+    color: turquoise; }
+  .testimonial-container h1 {
+    color: white; }
+  .testimonial-container p {
+    color: white; }
+  .testimonial-container q {
+    color: white; }
+  .testimonial-container i {
+    color: white; }
+  .testimonial-container .carousel-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+  .testimonial-container .client-box {
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column; }
+  .testimonial-container .carousel-border {
+    padding: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4); }
+
+.touch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%; }
+  .touch-container h3 {
+    color: dodgerblue; }
+  .touch-container h1 {
+    color: #040e56;
+    margin: 5%;
+    font-weight: bold;
+    font-size: 70px; }
+
+.footer-container {
+  position: relative;
+  padding: 5%;
+  background-image: url("http://tykit.rometheme.pro/virtu/wp-content/uploads/sites/11/2021/06/happy-young-colleagues-working-on-virtual-reality-PAB3KL8.jpg");
+  opacity: 0.99;
+  background-position: center center;
+  background-size: cover; }
+  .footer-container p {
+    color: white; }
+  .footer-container h4 {
+    color: white;
+    font-weight: bold; }
+  .footer-container li {
+    color: white;
+    padding: 2%; }
+  .footer-container i {
+    color: blue; }
+  .footer-container a {
+    color: white; }
+  .footer-container a:hover {
+    color: #040e56; }
+  .footer-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #040e56;
+    opacity: 0.8;
+    z-index: -1; }
+
+.copyright-container {
+  background-color: #040e56;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%; }
+  .copyright-container h6 {
+    color: white;
+    font-style: italic; }
+
+/*# sourceMappingURL=styles.css.map */
