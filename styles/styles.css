@@ -219,4 +219,48 @@
     color: white;
     font-style: italic; }
 
+.aboutus-page .bg-color {
+  background-color: #040e56;
+  height: 350px; }
+  .aboutus-page .bg-color h1 {
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-weight: bolder; }
+.aboutus-page .custom-breadcumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%; }
+  .aboutus-page .custom-breadcumb a {
+    color: green;
+    font-weight: bolder;
+    font-size: larger; }
+  .aboutus-page .custom-breadcumb a:hover {
+    color: turquoise; }
+  .aboutus-page .custom-breadcumb span {
+    color: white;
+    font-weight: bolder;
+    font-size: larger; }
+
+.contactus-page {
+  display: flex;
+  padding: 2%;
+  align-items: center;
+  flex-direction: column; }
+  .contactus-page h3 {
+    color: dodgerblue; }
+  .contactus-page h1 {
+    color: #040e56;
+    padding: 2%;
+    font-weight: bold;
+    font-size: 70px; }
+  .contactus-page .form-div {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
 /*# sourceMappingURL=styles.css.map */

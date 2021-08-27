@@ -179,7 +179,6 @@ $gray: gray;
     padding: 2%;
     h3 {
         color: turquoise;
-       
     }
     h5 {
         color: turquoise;
@@ -206,11 +205,10 @@ $gray: gray;
         align-self: flex-end;
         flex-direction: column;
     }
-    .carousel-border{
+    .carousel-border {
         padding: 5%;
-        
-         
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4 ), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
     }
 }
 .touch-container {
@@ -263,10 +261,9 @@ $gray: gray;
         left: 0;
         bottom: 0;
         right: 0;
-        background-color:$primary_blue;
+        background-color: $primary_blue;
         opacity: 0.8;
         z-index: -1;
-       
     }
 }
 .copyright-container {
@@ -278,5 +275,62 @@ $gray: gray;
     h6 {
         color: $white;
         font-style: italic;
+    }
+}
+
+.aboutus-page {
+    .bg-color {
+        background-color: $primary_blue;
+        height: 350px;
+        h1 {
+            padding: 2%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $white;
+            font-size: 60px;
+            font-weight: bolder;
+        }
+    }
+
+    .custom-breadcumb {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+        a {
+            color: green;
+            font-weight: bolder;
+            font-size: larger;
+        }
+        a:hover {
+            color: turquoise;
+        }
+        span {
+            color: $white;
+            font-weight: bolder;
+            font-size: larger;
+        }
+    }
+}
+
+.contactus-page {
+    display: flex;
+    padding: 2%;
+    align-items: center;
+    flex-direction: column;
+    h3 {
+        color: dodgerblue;
+    }
+    h1 {
+        color: $primary_blue;
+        padding: 2%;
+        font-weight: bold;
+        font-size: 70px;
+    }
+    .form-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
