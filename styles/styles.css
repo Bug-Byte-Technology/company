@@ -171,12 +171,14 @@
   align-items: center;
   padding: 5%; }
   .touch-container h3 {
-    color: dodgerblue; }
+    color: dodgerblue;
+    text-align: center; }
   .touch-container h1 {
     color: #040e56;
     margin: 5%;
     font-weight: bold;
-    font-size: 70px; }
+    font-size: 70px;
+    text-align: center; }
 
 .footer-container {
   position: relative;
@@ -274,6 +276,35 @@
 
 .stats-container {
   background-color: #e7edf8; }
+  .stats-container .employee-container {
+    position: relative;
+    padding: 3%; }
+  .stats-container .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20%;
+    transition: 0.5s ease;
+    backface-visibility: hidden; }
+  .stats-container .middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center; }
+  .stats-container .employee-container:hover .image {
+    opacity: 0.2; }
+  .stats-container .employee-container:hover .middle {
+    opacity: 1; }
+  .stats-container .text {
+    background-color: #04aa6d;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px; }
   .stats-container .div1 {
     display: flex;
     flex-wrap: wrap;
@@ -282,6 +313,12 @@
     flex-direction: column;
     padding: 2%;
     text-align: center; }
+    .stats-container .div1 h1 {
+      color: #040e56; }
+    .stats-container .div1 h5 {
+      color: turquoise; }
+    .stats-container .div1 h3 {
+      color: turquoise; }
   .stats-container .div2 {
     display: flex;
     flex-direction: row;
@@ -294,17 +331,17 @@
       flex-direction: column;
       justify-content: center;
       padding: 1%; }
-  .stats-container i {
-    color: red;
-    font-size: xx-large;
-    font-weight: bolder; }
-  .stats-container h1 {
-    color: #040e56; }
-  .stats-container sup {
-    color: green; }
-  .stats-container h5 {
-    color: turquoise; }
-  .stats-container p {
-    text-align: center; }
+    .stats-container .div2 i {
+      color: red;
+      font-size: xx-large;
+      font-weight: bolder; }
+    .stats-container .div2 h1 {
+      color: #040e56; }
+    .stats-container .div2 sup {
+      color: green; }
+    .stats-container .div2 h5 {
+      color: turquoise; }
+    .stats-container .div2 p {
+      text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */

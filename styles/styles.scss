@@ -215,18 +215,19 @@ $light_gray: #e7edf8;
 .touch-container {
     display: flex;
     flex-direction: column;
-
     align-items: center;
     padding: 5%;
 
     h3 {
         color: dodgerblue;
+        text-align: center;
     }
     h1 {
         color: $primary_blue;
         margin: 5%;
         font-weight: bold;
         font-size: 70px;
+        text-align: center;
     }
 }
 .footer-container {
@@ -349,6 +350,46 @@ $light_gray: #e7edf8;
 }
 .stats-container {
     background-color: $light_gray;
+    .employee-container {
+        position: relative;
+       padding: 3%;
+    }
+
+    .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 20%;
+        transition: 0.5s ease;
+        backface-visibility: hidden;
+    }
+
+    .middle {
+        transition: 0.5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .employee-container:hover .image {
+        opacity: 0.2;
+    }
+
+    .employee-container:hover .middle {
+        opacity: 1;
+    }
+
+    .text {
+        background-color: #04aa6d;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+    }
     .div1 {
         display: flex;
         flex-wrap: wrap;
@@ -357,36 +398,46 @@ $light_gray: #e7edf8;
         flex-direction: column;
         padding: 2%;
         text-align: center;
+        h1 {
+            color: $primary_blue;
+        }
+        h5 {
+            color: turquoise;
+        }
+        h3 {
+            color: turquoise;
+        }
     }
-    .div2{
+    .div2 {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
         padding: 2%;
-        div{
+        div {
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
             padding: 1%;
         }
-    }
-    i {
-        color: red;
-        font-size: xx-large;
-        font-weight: bolder;
-    }
-    h1 {
-        color: $primary_blue;
-    }
-    sup {
-        color: green;
-    }
-    h5{
-    color:turquoise
-    }
-    p{
-        text-align: center;
+
+        i {
+            color: red;
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+        h1 {
+            color: $primary_blue;
+        }
+        sup {
+            color: green;
+        }
+        h5 {
+            color: turquoise;
+        }
+        p {
+            text-align: center;
+        }
     }
 }
