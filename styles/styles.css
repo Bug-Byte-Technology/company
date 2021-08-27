@@ -272,4 +272,39 @@
   width: 100%;
   /* The width is the width of the web page */ }
 
+.stats-container {
+  background-color: #e7edf8; }
+  .stats-container .div1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+    text-align: center; }
+  .stats-container .div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%; }
+    .stats-container .div2 div {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      padding: 1%; }
+  .stats-container i {
+    color: red;
+    font-size: xx-large;
+    font-weight: bolder; }
+  .stats-container h1 {
+    color: #040e56; }
+  .stats-container sup {
+    color: green; }
+  .stats-container h5 {
+    color: turquoise; }
+  .stats-container p {
+    text-align: center; }
+
 /*# sourceMappingURL=styles.css.map */

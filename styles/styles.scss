@@ -12,6 +12,7 @@ $white: white;
 $black: black;
 $primary_blue: #040e56;
 $gray: gray;
+$light_gray: #e7edf8;
 
 //css for top-bar
 .top-bar {
@@ -333,10 +334,10 @@ $gray: gray;
         color: $primary_blue;
     }
     .card-style {
-       border-color: $primary_blue;
-       border-width: 3px;
+        border-color: $primary_blue;
+        border-width: 3px;
     }
-    .card-style:hover{
+    .card-style:hover {
         border-color: green;
     }
 }
@@ -345,4 +346,47 @@ $gray: gray;
     /* The height is 400 pixels */
     width: 100%;
     /* The width is the width of the web page */
-  }
+}
+.stats-container {
+    background-color: $light_gray;
+    .div1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2%;
+        text-align: center;
+    }
+    .div2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 2%;
+        div{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            padding: 1%;
+        }
+    }
+    i {
+        color: red;
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+    h1 {
+        color: $primary_blue;
+    }
+    sup {
+        color: green;
+    }
+    h5{
+    color:turquoise
+    }
+    p{
+        text-align: center;
+    }
+}
