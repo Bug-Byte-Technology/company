@@ -315,10 +315,7 @@ $gray: gray;
 }
 
 .contactus-page {
-    display: flex;
     padding: 2%;
-    align-items: center;
-    flex-direction: column;
     h3 {
         color: dodgerblue;
     }
@@ -326,11 +323,26 @@ $gray: gray;
         color: $primary_blue;
         padding: 2%;
         font-weight: bold;
-        font-size: 70px;
     }
-    .form-div{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    i {
+        color: green;
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+    h2 {
+        color: $primary_blue;
+    }
+    .card-style {
+       border-color: $primary_blue;
+       border-width: 3px;
+    }
+    .card-style:hover{
+        border-color: green;
     }
 }
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }

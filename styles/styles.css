@@ -247,20 +247,29 @@
     font-size: larger; }
 
 .contactus-page {
-  display: flex;
-  padding: 2%;
-  align-items: center;
-  flex-direction: column; }
+  padding: 2%; }
   .contactus-page h3 {
     color: dodgerblue; }
   .contactus-page h1 {
     color: #040e56;
     padding: 2%;
-    font-weight: bold;
-    font-size: 70px; }
-  .contactus-page .form-div {
-    display: flex;
-    align-items: center;
-    justify-content: center; }
+    font-weight: bold; }
+  .contactus-page i {
+    color: green;
+    font-size: xx-large;
+    font-weight: bolder; }
+  .contactus-page h2 {
+    color: #040e56; }
+  .contactus-page .card-style {
+    border-color: #040e56;
+    border-width: 3px; }
+  .contactus-page .card-style:hover {
+    border-color: green; }
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */ }
 
 /*# sourceMappingURL=styles.css.map */
