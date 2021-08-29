@@ -13,7 +13,7 @@ $black: black;
 $primary_blue: #040e56;
 $gray: gray;
 $light_gray: #e7edf8;
-$menubg_color:#1f2c6f;
+$menubg_color: #1f2c6f;
 
 //css for top-bar
 .top-bar {
@@ -45,19 +45,17 @@ $menubg_color:#1f2c6f;
     background-size: cover;
     position: relative;
 
-   
     .header-text {
         display: flex;
         flex-direction: column;
         margin: 5%;
     }
-    p{
+    p {
         color: white;
         font-size: xx-large;
-       
     }
     h1 {
-        color:turquoise;
+        color: turquoise;
         font-weight: bolder;
         font-size: 4vw;
     }
@@ -134,9 +132,6 @@ $menubg_color:#1f2c6f;
 }
 .client-container {
     background-color: $primary_blue;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     h4 {
         color: darkturquoise;
     }
@@ -145,19 +140,12 @@ $menubg_color:#1f2c6f;
         font-weight: bold;
     }
     p {
-        color: $gray;
+        color: $white;
     }
     .card-container {
-        width: 35%;
-        position: relative;
-        bottom: 50px;
-        margin: 10px;
-        background-color: $primary_blue;
-        padding: 10px;
-
-        p {
-            color: $white;
-        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 .importance-container {
@@ -255,6 +243,12 @@ $menubg_color:#1f2c6f;
     opacity: 0.99;
     background-position: center center;
     background-size: cover;
+    .footer-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
     p {
         color: $white;
     }
@@ -273,7 +267,7 @@ $menubg_color:#1f2c6f;
         color: $white;
     }
     a:hover {
-        color: $primary_blue;
+        color: green;
     }
     .overlay {
         position: absolute;
@@ -510,13 +504,13 @@ $menubg_color:#1f2c6f;
         margin: 2%;
         border-bottom-left-radius: 40%;
     }
-    .seo-container{
+    .seo-container {
         background-color: $primary_blue;
         border: 1px solid $primary_blue;
         margin: 2%;
         border-bottom-left-radius: 40%;
     }
-    .data-container{
+    .data-container {
         background-color: green;
         border: 1px solid $primary_blue;
         margin: 2%;
@@ -528,10 +522,8 @@ $menubg_color:#1f2c6f;
     }
 }
 
-.webservice-container{
-   
-    h1{
+.webservice-container {
+    h1 {
         color: green;
     }
-    
 }
