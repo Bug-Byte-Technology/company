@@ -43,6 +43,23 @@ $light_gray: #e7edf8;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
+   
+    .header-text {
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+    }
+    p{
+        color: white;
+        font-size: xx-large;
+       
+    }
+    h1 {
+        color:turquoise;
+        font-weight: bolder;
+        font-size: 4vw;
+    }
 }
 
 .about-container {
@@ -233,7 +250,7 @@ $light_gray: #e7edf8;
 .footer-container {
     position: relative;
     padding: 5%;
-    background-image: url('../images/footer.png');
+    background-image: url("../images/footer.png");
     opacity: 0.99;
     background-position: center center;
     background-size: cover;
@@ -290,7 +307,7 @@ $light_gray: #e7edf8;
             align-items: center;
             justify-content: center;
             color: $white;
-            font-size: 60px;
+            font-size: 5vw;
             font-weight: bolder;
             text-align: center;
         }
@@ -459,39 +476,61 @@ $light_gray: #e7edf8;
         text-align: center;
         font-size: small;
     }
-    a{
-        float:right;
+    a {
+        float: right;
         margin: 2%;
     }
-    .row-container{
+    .row-container {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        
     }
-   
+
     .website-container {
         background-color: $primary_blue;
         border: 1px solid $primary_blue;
-        margin:2%;
-        img{
+        margin: 2%;
+        img {
             border-bottom-left-radius: 40%;
         }
-       
     }
     .application-container {
         border: 1px solid $primary_blue;
         background-color: green;
         border-top-right-radius: 40%;
-        img{
+        img {
             border-top-right-radius: 40%;
         }
     }
     .marketing-container {
         background-color: $primary_blue;
         border: 1px solid $primary_blue;
-        margin:2%;
+        margin: 2%;
         border-bottom-left-radius: 40%;
     }
+    .seo-container{
+        background-color: $primary_blue;
+        border: 1px solid $primary_blue;
+        margin: 2%;
+        border-bottom-left-radius: 40%;
+    }
+    .data-container{
+        background-color: green;
+        border: 1px solid $primary_blue;
+        margin: 2%;
+        border-bottom-left-radius: 40%;
+        border-top-right-radius: 40%;
+        img {
+            border-top-right-radius: 40%;
+        }
+    }
+}
+
+.webservice-container{
+   
+    h1{
+        color: green;
+    }
+    
 }

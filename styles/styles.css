@@ -29,6 +29,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; }
+  .bg-img .header-text {
+    display: flex;
+    flex-direction: column;
+    margin: 5%; }
+  .bg-img p {
+    color: white;
+    font-size: xx-large; }
+  .bg-img h1 {
+    color: turquoise;
+    font-weight: bolder;
+    font-size: 4vw; }
 
 .about-container img {
   transition: 1s; }
@@ -230,7 +241,7 @@
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 60px;
+    font-size: 5vw;
     font-weight: bolder;
     text-align: center; }
 .aboutus-page .custom-breadcumb {
@@ -384,5 +395,21 @@
     border: 1px solid #040e56;
     margin: 2%;
     border-bottom-left-radius: 40%; }
+  .services-container .seo-container {
+    background-color: #040e56;
+    border: 1px solid #040e56;
+    margin: 2%;
+    border-bottom-left-radius: 40%; }
+  .services-container .data-container {
+    background-color: green;
+    border: 1px solid #040e56;
+    margin: 2%;
+    border-bottom-left-radius: 40%;
+    border-top-right-radius: 40%; }
+    .services-container .data-container img {
+      border-top-right-radius: 40%; }
+
+.webservice-container h1 {
+  color: green; }
 
 /*# sourceMappingURL=styles.css.map */
