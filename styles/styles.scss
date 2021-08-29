@@ -37,7 +37,7 @@ $light_gray: #e7edf8;
     }
 }
 .bg-img {
-    background-image: url("https://image.shutterstock.com/image-vector/accounting-big-data-blockchain-technology-600w-1919445398.jpg");
+    background-image: url("../images/hero_area_image.png");
     min-height: 700px;
     background-position: center;
     background-repeat: no-repeat;
@@ -233,7 +233,7 @@ $light_gray: #e7edf8;
 .footer-container {
     position: relative;
     padding: 5%;
-    background-image: url("http://tykit.rometheme.pro/virtu/wp-content/uploads/sites/11/2021/06/happy-young-colleagues-working-on-virtual-reality-PAB3KL8.jpg");
+    background-image: url('../images/footer.png');
     opacity: 0.99;
     background-position: center center;
     background-size: cover;
@@ -292,6 +292,7 @@ $light_gray: #e7edf8;
             color: $white;
             font-size: 60px;
             font-weight: bolder;
+            text-align: center;
         }
     }
 
@@ -352,7 +353,7 @@ $light_gray: #e7edf8;
     background-color: $light_gray;
     .employee-container {
         position: relative;
-       padding: 3%;
+        padding: 3%;
     }
 
     .image {
@@ -439,5 +440,58 @@ $light_gray: #e7edf8;
         p {
             text-align: center;
         }
+    }
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    h3 {
+        color: white;
+        padding: 2%;
+        text-align: center;
+    }
+    p {
+        color: $white;
+        padding: 2%;
+        text-align: center;
+        font-size: small;
+    }
+    a{
+        float:right;
+        margin: 2%;
+    }
+    .row-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+   
+    .website-container {
+        background-color: $primary_blue;
+        border: 1px solid $primary_blue;
+        margin:2%;
+        img{
+            border-bottom-left-radius: 40%;
+        }
+       
+    }
+    .application-container {
+        border: 1px solid $primary_blue;
+        background-color: green;
+        border-top-right-radius: 40%;
+        img{
+            border-top-right-radius: 40%;
+        }
+    }
+    .marketing-container {
+        background-color: $primary_blue;
+        border: 1px solid $primary_blue;
+        margin:2%;
+        border-bottom-left-radius: 40%;
     }
 }
