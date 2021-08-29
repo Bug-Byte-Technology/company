@@ -13,6 +13,7 @@ $black: black;
 $primary_blue: #040e56;
 $gray: gray;
 $light_gray: #e7edf8;
+$menubg_color:#1f2c6f;
 
 //css for top-bar
 .top-bar {
@@ -299,7 +300,7 @@ $light_gray: #e7edf8;
 
 .aboutus-page {
     .bg-color {
-        background-color: $primary_blue;
+        background-color: $menubg_color;
         height: 350px;
         h1 {
             padding: 2%;
