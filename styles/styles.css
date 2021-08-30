@@ -3,7 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 1rem;
-  font-family: "Commissioner", sans-serif; }
+  font-family: "Commissioner", sans-serif;
+  overflow-x: hidden; }
 
 .top-bar {
   background-color: black;
@@ -353,58 +354,53 @@
     .stats-container .div2 p {
       text-align: center; }
 
-.services-container {
+.services-container h3 {
+  color: white;
+  padding: 2%;
+  text-align: center; }
+.services-container p {
+  color: white;
+  padding: 2%;
+  text-align: center;
+  font-size: small; }
+.services-container a {
+  float: right;
+  margin: 2%; }
+.services-container .row-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center; }
-  .services-container h3 {
-    color: white;
-    padding: 2%;
-    text-align: center; }
-  .services-container p {
-    color: white;
-    padding: 2%;
-    text-align: center;
-    font-size: small; }
-  .services-container a {
-    float: right;
-    margin: 2%; }
-  .services-container .row-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center; }
-  .services-container .website-container {
-    background-color: #040e56;
-    border: 1px solid #040e56;
-    margin: 2%; }
-    .services-container .website-container img {
-      border-bottom-left-radius: 40%; }
-  .services-container .application-container {
-    border: 1px solid #040e56;
-    background-color: green;
-    border-top-right-radius: 40%; }
-    .services-container .application-container img {
-      border-top-right-radius: 40%; }
-  .services-container .marketing-container {
-    background-color: #040e56;
-    border: 1px solid #040e56;
-    margin: 2%;
+.services-container .website-container {
+  background-color: #040e56;
+  border: 1px solid #040e56;
+  margin: 2%; }
+  .services-container .website-container img {
     border-bottom-left-radius: 40%; }
-  .services-container .seo-container {
-    background-color: #040e56;
-    border: 1px solid #040e56;
-    margin: 2%;
-    border-bottom-left-radius: 40%; }
-  .services-container .data-container {
-    background-color: green;
-    border: 1px solid #040e56;
-    margin: 2%;
-    border-bottom-left-radius: 40%;
+.services-container .application-container {
+  border: 1px solid #040e56;
+  background-color: green;
+  border-top-right-radius: 40%; }
+  .services-container .application-container img {
     border-top-right-radius: 40%; }
-    .services-container .data-container img {
-      border-top-right-radius: 40%; }
+.services-container .marketing-container {
+  background-color: #040e56;
+  border: 1px solid #040e56;
+  margin: 2%;
+  border-bottom-left-radius: 40%; }
+.services-container .seo-container {
+  background-color: #040e56;
+  border: 1px solid #040e56;
+  margin: 2%;
+  border-bottom-left-radius: 40%; }
+.services-container .data-container {
+  background-color: green;
+  border: 1px solid #040e56;
+  margin: 2%;
+  border-bottom-left-radius: 40%;
+  border-top-right-radius: 40%; }
+  .services-container .data-container img {
+    border-top-right-radius: 40%; }
 
 .webservice-container h1 {
   color: green; }
