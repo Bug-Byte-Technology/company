@@ -372,7 +372,7 @@
   align-items: center;
   justify-content: center; }
 .services-container .website-container {
-  background-color: #040e56;
+  background-color: #1f2c6f;
   border: 1px solid #040e56;
   margin: 2%; }
   .services-container .website-container img {
@@ -384,12 +384,12 @@
   .services-container .application-container img {
     border-top-right-radius: 40%; }
 .services-container .marketing-container {
-  background-color: #040e56;
+  background-color: #1f2c6f;
   border: 1px solid #040e56;
   margin: 2%;
   border-bottom-left-radius: 40%; }
 .services-container .seo-container {
-  background-color: #040e56;
+  background-color: #1f2c6f;
   border: 1px solid #040e56;
   margin: 2%;
   border-bottom-left-radius: 40%; }

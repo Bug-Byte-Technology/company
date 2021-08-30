@@ -482,7 +482,7 @@ $menubg_color: #1f2c6f;
     }
 
     .website-container {
-        background-color: $primary_blue;
+        background-color: $menubg_color;
         border: 1px solid $primary_blue;
         margin: 2%;
         img {
@@ -498,13 +498,13 @@ $menubg_color: #1f2c6f;
         }
     }
     .marketing-container {
-        background-color: $primary_blue;
+        background-color: $menubg_color;
         border: 1px solid $primary_blue;
         margin: 2%;
         border-bottom-left-radius: 40%;
     }
     .seo-container {
-        background-color: $primary_blue;
+        background-color: $menubg_color;
         border: 1px solid $primary_blue;
         margin: 2%;
         border-bottom-left-radius: 40%;
